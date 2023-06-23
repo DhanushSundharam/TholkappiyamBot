@@ -12520,7 +12520,7 @@ def display_paadal_data(update: Update, _: CallbackContext):
 
 
 def main() -> None:
-    updater = Updater("6241626672:AAGocjUP0VR2LdOIVqFPrTW1UYny6hCG1NU")
+    updater = Updater("6241626672:AAHXC7IHwiTbJkMIbv5SbN8X2Xw3iRlT76g")
     dispatcher = updater.dispatcher
     #dispatcher.add_handler(MessageHandler(Filters.text, handle_message))
     dispatcher.add_handler(CommandHandler("start", start))
